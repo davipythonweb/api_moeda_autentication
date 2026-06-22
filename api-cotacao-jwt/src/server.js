@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // Rota de exemplo para obter a cotação
-app.listen(3000, () => {
+app.listen(5670, () => {
     // Aqui você pode adicionar a lógica para lidar com as rotas da API de cotação
     console.log("Servidor rodando");
 });

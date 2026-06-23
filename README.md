@@ -1,17 +1,35 @@
-# api_moeda_autentication
+## api_moeda_autentication
 API de Contação de moeda com autentitação em jwt .
+## API Cotação JWT
 
-# inicializar projeto Node
+API simples em Node.js com Express, JWT e SQLite para autenticação e consulta de cotação de moedas.
+
+## Funcionalidades
+- Cadastro e login de usuários
+- Autenticação com JWT
+- Consulta de cotação de moedas (API externa)
+- Registro de logs no SQLite
+
+## Tecnologias
+Node.js, Express, SQLite, JWT, Axios
+
+## Como rodar
+npm install  
+npm run dev
+
+--------------------------------------------------------
+
+## inicializar projeto Node
 - npm init -y
-# instalar dependencias
+## instalar dependencias
 npm install express axios jsonwebtoken bcryptjs dotenv cors
 npm install -D nodemon
 
-# subir server
+## subir server
 npm run dev
 ou bun run dev
 
-# configurar scripts
+## configurar scripts
 "scripts": {
   "start": "node src/server.js",
   "dev": "nodemon src/server.js"
